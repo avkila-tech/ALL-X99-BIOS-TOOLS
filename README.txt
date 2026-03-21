@@ -25,12 +25,14 @@ IFR Extractor : parses BIOS setup to show hidden menus
 
 AMIChangeLogo : Lets you backup and change the boot logo. Not Windows logo, the motherboard logo.
 
-AFUWINGUIx64 : Basically FPTW but with more support for motherboards. Must disable BIOS Lock on your motherboard or else you will fail to
+AFUWINGUIx64 : Basically FPTW but with more support for motherboards. Must disable BIOS Lock on your motherboard or else you will fail to 
 read/write any BIOS! This is the same in FPTW. If your BIOS Lock is turned on, you can not read/write BIOS. You'll need CH341A to mod.
 
 ultimate patcher tool : easy to use modding tool for x99 bioses. can unlock overclocking, memory timings, turbo unlock, inject rebar, change logo etc. UNTESTED
 
-XTUSetup : XTU 6.4.2.40 for Chinese X99 motherboards. Works.
+XTUSetup : XTU 6.4.2.40 for Chinese X99 motherboards. Works. Does not care about chipset as long as your motherboard supports overclocking.
+Most common fix for locked boards is unlocking it from AMIBCP5.exe however this is not guaranteed. However over the time i did this unlock on various motherboards
+it worked fine on %70 of them. Again, this is not a confirmed fix. If your BIOS misses the actual stuff that needs to overclock it might lead to a brick.
 
 ME System Tools v9.1 R7 : Lets you modify the Intel ME which is normally killed in Chinese X99 motherboards.
 With this tool, you can adjust the BCLK to be fixed at 100 mhz flat instead of downspreading to 99.78
