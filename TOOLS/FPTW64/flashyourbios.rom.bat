@@ -1,0 +1,1 @@
+fptw64.exe -f yourbios.rom

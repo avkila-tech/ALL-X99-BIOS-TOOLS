@@ -1,0 +1,1 @@
+fptw.exe -d old.rom

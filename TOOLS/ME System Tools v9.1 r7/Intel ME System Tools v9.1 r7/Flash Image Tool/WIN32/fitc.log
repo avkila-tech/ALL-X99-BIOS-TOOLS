@@ -1,0 +1,679 @@
+
+-------------------------------------------------------
+ Flash Image Tool  -  12/6/2025  -  18:6:50 
+-------------------------------------------------------
+
+
+Command line: ""
+Environment variables:
+	$CurWorkDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$WorkingDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$SourceDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$DestDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build"
+	$UserVar1 	= ".\"
+	$UserVar2 	= ".\"
+	$UserVar3 	= ".\"
+
+Using vsccommn.bin with timestamp 17:22:47 08/18/2014 GMT.
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Changing Sku Type.
+USER ACTION: Changing Sku Type.
+USER ACTION: Open File.
+USER ACTION: Open File.
+USER ACTION: File Dropped on UI.
+Loading file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\afuwin.rom".
+
+----------- Decomposing: 18:8:5 --- "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\afuwin.rom" -----------
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+Decomposing data...
+ERROR: Flash Image: Unrecognized binary format!
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Changing Sku Type.
+USER ACTION: File Dropped on UI.
+Loading file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\afuwin.rom".
+
+----------- Decomposing: 18:8:12 --- "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\afuwin.rom" -----------
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+Decomposing data...
+ERROR: Flash Image: Unrecognized binary format!
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Changing Sku Type.
+USER ACTION: Changing Sku Type.
+USER ACTION: Build Settings.
+USER ACTION: New File.
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Changing Sku Type.
+USER ACTION: Changing Sku Type.
+USER ACTION: New File.
+USER ACTION: New File.
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Changing Platform.
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "Hybrid" from "Standard"
+Initializing Profile "Discrete" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+USER ACTION: Changing Sku Type.
+USER ACTION: Changing Sku Type.
+USER ACTION: New File.
+Loading ICC Settings from XML
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "Hybrid" from "Standard"
+Initializing Profile "Discrete" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Open File.
+USER ACTION: Build Image.
+Building ROM image to save as "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build\outimage.bin".
+
+----------- Building: 18:11:56 --- "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build\outimage.bin" -----------
+
+
+Building full image...
+
+Building data...
+Descriptor Region
+Descriptor Map
+Component Section
+Region Map
+Master Access Section
+	CPU/BIOS
+	Manageability Engine (ME)
+	GbE LAN
+PCH Straps
+PCH Strap 0
+PCH Strap 1
+PCH Strap 2
+PCH Strap 3
+PCH Strap 4
+PCH Strap 5
+PCH Strap 6
+PCH Strap 7
+PCH Strap 8
+PCH Strap 9
+PCH Strap 10
+PCH Strap 11
+PCH Strap 12
+PCH Strap 13
+PCH Strap 14
+PCH Strap 15
+PCH Strap 16
+PCH Strap 17
+PCH Strap 18
+PCH Strap 19
+PCH Strap 20
+PROC Strap 0
+REGINIT Table
+VSCC Table
+	AT26DF321
+		VendorId = 0x1F, DeviceId0 = 0x47, DeviceId1 = 0x00, VsccValue = 0x20152015
+	W25Q64BV
+		VendorId = 0xEF, DeviceId0 = 0x40, DeviceId1 = 0x17, VsccValue = 0x20252025
+Upper Map
+ERROR: The region "GbE Region" has a length of 0 and no binary file was specified! Aborting the build!
+
+Build thread exit code = 105.
+USER ACTION: Open File.
+USER ACTION: New File.
+Program terminated.
+-------------------
+
+
+-------------------------------------------------------
+ Flash Image Tool  -  12/6/2025  -  18:13:31 
+-------------------------------------------------------
+
+
+Command line: ""
+Environment variables:
+	$CurWorkDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$WorkingDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$SourceDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$DestDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build"
+	$UserVar1 	= ".\"
+	$UserVar2 	= ".\"
+	$UserVar3 	= ".\"
+
+Using vsccommn.bin with timestamp 17:22:47 08/18/2014 GMT.
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Open File.
+Loading file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\afuwin.rom".
+
+----------- Decomposing: 18:13:40 --- "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\afuwin.rom" -----------
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+Decomposing data...
+ERROR: Flash Image: Unrecognized binary format!
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+Program terminated.
+-------------------
+
+
+-------------------------------------------------------
+ Flash Image Tool  -  12/6/2025  -  18:21:06 
+-------------------------------------------------------
+
+
+Command line: ""
+Environment variables:
+	$CurWorkDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$WorkingDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$SourceDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$DestDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build"
+	$UserVar1 	= ".\"
+	$UserVar2 	= ".\"
+	$UserVar3 	= ".\"
+
+Using vsccommn.bin with timestamp 17:22:47 08/18/2014 GMT.
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: File Dropped on UI.
+Loading file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\QD4V10.bin".
+
+----------- Decomposing: 18:21:11 --- "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\QD4V10.bin" -----------
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+Decomposing data...
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+USER ACTION: Changing Sku Type.
+Descriptor Region
+Descriptor Map
+Component Section
+Region Map
+Master Access Section
+	CPU/BIOS
+	Manageability Engine (ME)
+	GbE LAN
+PCH Straps
+PCH Strap 0
+PCH Strap 1
+PCH Strap 2
+PCH Strap 3
+PCH Strap 4
+PCH Strap 5
+PCH Strap 6
+PCH Strap 7
+PCH Strap 8
+PCH Strap 9
+PCH Strap 10
+PCH Strap 11
+PCH Strap 12
+PCH Strap 13
+PCH Strap 14
+PCH Strap 15
+PCH Strap 16
+PCH Strap 17
+PCH Strap 18
+PCH Strap 19
+PCH Strap 20
+PROC Strap 0
+REGINIT Table
+OEM Section
+	Writing file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\QD4V10\Decomp\OEM Section.bin"...
+Upper Map
+VSCC Table
+	Vscc Device 1
+	Vscc Device 2
+	Vscc Device 3
+ME Region
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+amt.oem.secure.variables NVAR Not found.
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+USER ACTION: Changing Sku Type.
+amt.hwinv.asf.oem NVAR Not found.
+Usbr.factory.defaults NVAR Not found.
+PrivacyLevel NVAR Not found.
+amt.oem.secure.variables NVAR Not found.
+Adding NfcRadioType NVAR.
+Extracting ICC NVAR Data
+Initializing Profile "Standard" from "Standard"
+BIOS Region
+Creating map file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\QD4V10\QD4V10.map".
+-- done --
+
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+amt.oem.secure.variables NVAR Not found.
+USER ACTION: Changing Sku Type.
+WARNING: - Clock Range Definition Records
+PCIE CLOCK VIOLATION
+Clock ranges set so maximum frequency < minimum frequency
+(max_freq=100.000000MHz is less than min_freq=101.052631MHz)
+
+-------------------------------------------------------
+ Flash Image Tool  -  12/6/2025  -  20:31:40 
+-------------------------------------------------------
+
+
+Command line: ""
+Environment variables:
+	$CurWorkDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$WorkingDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$SourceDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$DestDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build"
+	$UserVar1 	= ".\"
+	$UserVar2 	= ".\"
+	$UserVar3 	= ".\"
+
+Using vsccommn.bin with timestamp 17:22:47 08/18/2014 GMT.
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: File Dropped on UI.
+Loading file "C:\Users\Administrator\Desktop\biosfile.rom".
+
+----------- Decomposing: 20:31:43 --- "C:\Users\Administrator\Desktop\biosfile.rom" -----------
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+Decomposing data...
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+USER ACTION: Changing Sku Type.
+Descriptor Region
+Descriptor Map
+Component Section
+Region Map
+Master Access Section
+	CPU/BIOS
+	Manageability Engine (ME)
+	GbE LAN
+PCH Straps
+PCH Strap 0
+PCH Strap 1
+PCH Strap 2
+PCH Strap 3
+PCH Strap 4
+PCH Strap 5
+PCH Strap 6
+PCH Strap 7
+PCH Strap 8
+PCH Strap 9
+PCH Strap 10
+PCH Strap 11
+PCH Strap 12
+PCH Strap 13
+PCH Strap 14
+PCH Strap 15
+PCH Strap 16
+PCH Strap 17
+PCH Strap 18
+PCH Strap 19
+PCH Strap 20
+PROC Strap 0
+REGINIT Table
+OEM Section
+	Writing file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\biosfile\Decomp\OEM Section.bin"...
+Upper Map
+VSCC Table
+	Vscc Device 1
+	Vscc Device 2
+	Vscc Device 3
+ME Region
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+amt.oem.secure.variables NVAR Not found.
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+USER ACTION: Changing Sku Type.
+amt.hwinv.asf.oem NVAR Not found.
+Usbr.factory.defaults NVAR Not found.
+PrivacyLevel NVAR Not found.
+amt.oem.secure.variables NVAR Not found.
+Adding NfcRadioType NVAR.
+Extracting ICC NVAR Data
+Initializing Profile "Standard" from "Standard"
+BIOS Region
+Creating map file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\biosfile\biosfile.map".
+-- done --
+
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+amt.oem.secure.variables NVAR Not found.
+USER ACTION: Changing Sku Type.
+USER ACTION: File Dropped on UI.
+Loading file "C:\Users\Administrator\Desktop\biosfile.rom".
+
+----------- Decomposing: 20:31:59 --- "C:\Users\Administrator\Desktop\biosfile.rom" -----------
+
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+Decomposing data...
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+USER ACTION: Changing Sku Type.
+Descriptor Region
+Descriptor Map
+Component Section
+Region Map
+Master Access Section
+	CPU/BIOS
+	Manageability Engine (ME)
+	GbE LAN
+PCH Straps
+PCH Strap 0
+PCH Strap 1
+PCH Strap 2
+PCH Strap 3
+PCH Strap 4
+PCH Strap 5
+PCH Strap 6
+PCH Strap 7
+PCH Strap 8
+PCH Strap 9
+PCH Strap 10
+PCH Strap 11
+PCH Strap 12
+PCH Strap 13
+PCH Strap 14
+PCH Strap 15
+PCH Strap 16
+PCH Strap 17
+PCH Strap 18
+PCH Strap 19
+PCH Strap 20
+PROC Strap 0
+REGINIT Table
+OEM Section
+	Writing file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\biosfile\Decomp\OEM Section.bin"...
+Upper Map
+VSCC Table
+	Vscc Device 1
+	Vscc Device 2
+	Vscc Device 3
+ME Region
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+amt.oem.secure.variables NVAR Not found.
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+USER ACTION: Changing Sku Type.
+amt.hwinv.asf.oem NVAR Not found.
+Usbr.factory.defaults NVAR Not found.
+PrivacyLevel NVAR Not found.
+amt.oem.secure.variables NVAR Not found.
+Adding NfcRadioType NVAR.
+Extracting ICC NVAR Data
+Initializing Profile "Standard" from "Standard"
+BIOS Region
+Creating map file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\biosfile\biosfile.map".
+-- done --
+
+Configuration
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+amt.oem.secure.variables NVAR Not found.
+USER ACTION: Changing Sku Type.
+USER ACTION: Save File.
+Saving ICC Settings to XML
+File saved as "C:\Users\Administrator\Desktop\Untitled.xml".
+USER ACTION: Build Image.
+Building ROM image to save as "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build\outimage.bin".
+
+----------- Building: 20:34:29 --- "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build\outimage.bin" -----------
+
+
+Building full image...
+
+Building data...
+Descriptor Region
+Descriptor Map
+Component Section
+Region Map
+Master Access Section
+	CPU/BIOS
+	Manageability Engine (ME)
+	GbE LAN
+PCH Straps
+PCH Strap 0
+PCH Strap 1
+PCH Strap 2
+PCH Strap 3
+PCH Strap 4
+PCH Strap 5
+PCH Strap 6
+PCH Strap 7
+PCH Strap 8
+PCH Strap 9
+PCH Strap 10
+PCH Strap 11
+PCH Strap 12
+PCH Strap 13
+PCH Strap 14
+PCH Strap 15
+PCH Strap 16
+PCH Strap 17
+PCH Strap 18
+PCH Strap 19
+PCH Strap 20
+PROC Strap 0
+REGINIT Table
+VSCC Table
+	Vscc Device 1
+		VendorId = 0x1F, DeviceId0 = 0x47, DeviceId1 = 0x00, VsccValue = 0x20152015
+	Vscc Device 2
+		VendorId = 0xEF, DeviceId0 = 0x40, DeviceId1 = 0x17, VsccValue = 0x20252025
+	Vscc Device 3
+		VendorId = 0xEF, DeviceId0 = 0x40, DeviceId1 = 0x18, VsccValue = 0x20252025
+Upper Map
+OEM Section: "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\biosfile\Decomp\OEM Section.bin"
+ME Region: "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\biosfile\decomp\me region.bin"
+BIOS Region: "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\biosfile\Decomp\BIOS Region.bin"
+
+KR partition found    = 1
+TD partition found   = 1
+OS partition found   = 0
+CL partition found   = 1
+CM partition found   = 0
+SH partition found   = 1
+SP partition found   = 0
+QS partition found   = 0
+PL partition found   = 0
+The configuration parameters related to missing partition(s) will not be updated!
+amt.hwinv.asf.oem NVAR Not found.
+amt.oem.secure.variables NVAR Not found.
+Saving ICC NVAR Data
+
+Writing ROM image file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build\outimage.bin".
+Writing MAP file "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\ME System Tools v9.1 r7\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build\outimage.map".
+
+Image size = 0x1000000 bytes
+
+-- done --
+
+Build thread exit code = 0.
+USER ACTION: Changing Sku Type.
+USER ACTION: Changing Sku Type.

@@ -1,0 +1,1 @@
+fptw64.exe -d currentbios.rom
