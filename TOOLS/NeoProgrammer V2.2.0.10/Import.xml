@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--- 
+  **************************************************************************************************
+【2023-7-30】23#、30#、芯片更新内容:
+  添加芯片:
+FORESEE
+	FS35ND01G-S1Y2 
+	F35SQA001G-WWT
+	F35SQA001G-WWR
+	F35SQA001G-WAT
+
+【2023-7-28】23#、24#、28#、芯片更新内容:
+1.修复CAT24C256-分类为I2C芯片，建议修复更新！
+感谢@xuanpo反馈！
+2.添加芯片
+EON
+EN25QX128A
+
+【2023-7-18】23#、7#、18#、芯片更新内容：
+  2、添加芯片:
+WINBOND
+     W25N01KV-新版
+
+【2023-7-17】23#、7#、17#、芯片更新内容：
+  添加芯片:
+WINBOND
+     W25N01KVZEIG
+     W25N04KV
+	 W25N01JW
+	 W25N04KW
+AMIC
+     A25LQ32A
+
+【2023-7-12】23#、4#、18#、26#芯片更新内容：
+  添加芯片:
+GIGADEVICE  
+GD25Q80
+GD25Q80B
+GD25Q16
+GD25Q16B
+GD25Q32
+GD25Q32B
+GD25Q64
+GD25Q64B
+GD25B64B
+GD25B128C
+GD25Q128B
+GD25Q128C
+
+【2023-7-5】23#、7#、5#芯片更新内容：
+1.添加芯片:
+GIGADEVICE
+     GD5F4GQ4UB
+     GD5F4GQ4UC
+	 GD5F4GQ4RB
+     GD5F4GQ4RC
+MICRON 
+     MT29F4G01
+2.增加[FORESEE]芯片厂商：
+     FS35ND04G-S2Y2
+3.紧急修复<MACRONIX>芯片容量参数以及芯片的备用区ECC数据容量错误问题
+MX35LF4G24AD参数更新为：MX35LF4G24AD-最新 
+	 
+【2023-7-3】23#、7#、3#芯片更新内容：
+  添加芯片:
+MACRONIX  
+     MX35LF4G24AD
+增加[AKM]芯片厂商：	 
+     AK65108
+     AK6510
+     AK6512
+     AK6514
+     AK6514
+
+【2023-7-1】23#、7#、芯片更新内容：
+  添加芯片:
+SAIFUN
+     SA25C1024H
+     SA25C1024L
+     SA25C512H
+     SA25C512L
+	 
+【2023-6-28】23#、6#、24#芯片更新内容：
+1.修复芯片函数指令参数<WINBOND>
+W25M02GW、W25M02GV 芯片的备用区无法勾选读取问题，修改为  W25M02GWZEIG-最新、W25M02GVZEIG-最新，
+这个应该是原作者指令参数填错了，属于老问题了，今天才发现才发现，已修复！；
+2.修复芯片函数指令参数<DOSILICON>
+芯片无法勾选读取备用区问题，已修复！；
+改为  DS35M2GA-IB-最新  
+这个是之前添加指向打错跟WINBOND一样的问题！
+3.添加芯片：
+PUYA【普亚】
+     P25D40H
+ 
+ 【2023-6-23】23#、6#、23#芯片更新内容：
+  添加芯片: 
+KHIC
+     KH25L1005
+     KH25L1005A 
+     KH25L2005
+     KH25L4005 
+     KH25L4005A 
+     KH25L512 
+     KH25L512A 
+     KH25L8005 
+EFST
+     EM25LV512
+     EM25LV010
+     F25L004A
+     F25L008A
+     F25L016A
+     F25L04UA
+     F25L04P
+     F25S04P
+     F25L08P
+     F25L16P
+     F25L32P
+     F25L32Q 
+
+ 【2023-6-13】23#、6#、13#芯片更新内容：
+  添加芯片: 
+     W25Q128JVSQ
+     W25Q128JVFQ
+     W25Q128JVPQ
+     W25Q128JVEQ
+     W25Q128JVBQ
+     W25Q128JVCQ
+     W25Q128JVSM
+     W25Q128JVFM
+     W25Q128JVPM
+     W25Q128JVEM
+     W25Q128JVBM
+     W25Q128JVCM
+
+    【2023-6-9】23#、69#芯片更新内容：
+  添加芯片: 
+DEUTRON：
+     AC25LV512 
+     AC25LV010
+CATALYST_CSI：
+	 CAT24C256
+	 
+	【2023-6-5】23#、65#芯片更新内容：
+  添加芯片: 
+SPI_NOR/WINBOND：  
+     WINBOND/W25Q10EW_1.8V
+     WINBOND/W25Q128FW_1.8V
+     WINBOND/W25Q16CV
+     WINBOND/W25Q16DV
+     WINBOND/W25Q16FW_1.8V
+     WINBOND/W25Q16V
+     WINBOND/W25Q20EW_1.8V
+     WINBOND/W25Q32FW_1.8V
+     WINBOND/W25Q32V
+     WINBOND/W25Q40EW_1.8V
+     WINBOND/W25Q64CV
+     WINBOND/W25Q64JW-IQ_1.8V
+     WINBOND/W25Q64JW-IM_1.8V
+     WINBOND/W25Q64FW_1.8V
+     WINBOND/W25Q80DV
+     WINBOND/W25Q80EW_1.8V
+	 
+   【2023-6-4】23#、64#芯片更新内容：
+  添加芯片:
+  Samsung_Zilong：
+     S3F8S24
+     S3F8S28
+     S3F8S35
+     S3F8S39
+     S3F9454B
+     S3F94C4
+     S3F94C8
+
+   【2023-6-2】23-62#芯片更新内容：
+  添加芯片:
+     MX35UF1G24AD_1.8V
+	 MX35UF2G24AD_1.8V
+  
+   【2023-5-31】5-31#、4-18#芯片更新内容：
+  添加芯片:
+  技嘉科技
+     GD25B64E
+  旺宏
+	 MX77L12850F
+  希科
+     X25010 
+     X25043 
+     X25045 
+     X25F008 
+     X25F016
+     X25F032
+     X25F064
+     X5043
+     X5045
+   ZEMPRO	 
+     TS25L512A 
+     TS25L010A
+     TS25L020A 
+     TS25L16AP 
+     TS25L16BP
+     TS25L16P 
+	 
+   【2023-5-29】3-14#芯片更新内容：
+  添加芯片:
+     XM25QU41B_1.8V
+     XM25QU80B_1.8V
+     XM25QU16B_1.8V
+     XM25QU16C_1.8V
+     XM25LU32C_1.8V
+     XM25QU32C_1.8V
+     XM25LU64C_1.8V
+     XM25RU64C_1.8V
+     XM25QU64C_1.8V
+     XM25LU128C_1.8V
+     XM25RU128C_1.8V
+     XM25QU128C_1.8V
+     XM25RU256C_1.8V
+     XM25QU256C_1.8V
+     XM25RU512C_1.8V
+     XM25QU512C_1.8V
+     XM25QE16C
+     XM25QH16C
+     XM25QE32C
+     XM25QH32C
+     XM25RH64C
+     XM25QH64C
+     XM25RH128C
+     XM25RH256C
+     XM25QH256C
+     XM25RH512C
+     XM25QH512C
+     XM25QW512C
+  
+  【2023-5-28】47#、56#芯片更新内容：
+  1.添加芯片：
+     MX25U25645G_1.8V
+     MX25L6436F
+  2.修复【GPR25L3203F】脚本的指向链接问题；  
+  
+ 【2023-5-27-NIGHT】5-27#芯片更新内容：
+  添加芯片:
+     DS35M1GA-IB_1.8V 
+	 DS35M2GA-IB_1.8V
+	 
+  【2023-5-27-PM】32#芯片更新内容：
+  添加芯片：
+     W25Q80BW_1.8V
+	 W25R256JV
+
+  【2023-5-27】16#、32#芯片更新内容：
+  添加芯片：
+     W25Q80BW_1.8V
+     GPR25L005E 
+	 GPR25L161B 
+	 GPR25L020B 
+	 GPR25L3203F     
+	 
+  【2023-5-25】39#、28#芯片更新内容：
+  添加芯片：
+     GD25LQ20C
+	 GD25LQ064C
+	 GD25LQ128C
+	 GD25LQ256C
+	 GD25B64C
+	 GD25Q80C
+	  
+   **************************************************************************************************
+ -->
+<chiplist>
+  <SPI_EC>
+    <ENE>
+      <KB9012 id="9012" page="128" size="131072" adapt="adapKB90"/>
+    </ENE>
+  </SPI_EC> 
+  <SPI_DATA_45>
+    <ATMEL>
+      <AT45DB642D_page1024 id="1F2800" page="1024" size="8388608" adapt="adapSPI45"/>
+    </ATMEL> 
+  </SPI_DATA_45>
+  <SPI_NAND>
+    <ETRON>
+      <EM73E044VCB id="D52F" page="2048" size="536870912" spare="128" besize="128" comment="Experimental"/>
+    </ETRON>
+    <GIGADEVICE>
+      <GD5F1GQ4RExxH vcc="1.8" id="C8C9"   page="2048" size="134217728" spare="128" besize="128"/>
+	  <GD5F4GQ4RB vcc="1.8" id="C8C4" page="2048" size="536870912" spare="128" besize="128" planes="2"/>
+	  <GD5F4GQ4RC vcc="1.8" id="C8C4" page="2048" size="536870912" spare="128" besize="128" planes="2"/>
+	  <GD5F4GQ4UB vcc="3.3" id="C8D4" page="2048" size="536870912" spare="128" besize="128" planes="2"/>
+	  <GD5F4GQ4UC vcc="3.3" id="C8D4" page="2048" size="536870912" spare="128" besize="128" planes="2"/>	  
+    </GIGADEVICE>
+    <ISSI>
+      <IS37SML01G1 id="C8217F" page="2048" size="134217728" spare="64" besize="128"/>
+    </ISSI>
+    <MACRONIX>
+      <MX35LF1GE4AB id="C212" page="2048" size="134217728" spare="64" besize="128"/>
+      <MX35LF2G14AC id="C220" page="2048" size="268435456" spare="64" besize="128" planes="2"/>
+	  <MX35UF1G24AD vcc="1.8" id="C294" page="2048" size="134217728" spare="64" besize="128" planes="2"/>
+	  <MX35LF4G24AD-最新 vcc="3.3" id="C235" page="2048" size="536870912" spare="64" besize="128" planes="2"/>	  
+    </MACRONIX>
+    <MICRON>
+      <MT29F1G01AAADD   id="2C12" page="2048" size="134217728" spare="64" besize="128" planes="2"/>
+	  <MT29F4G01 vcc="3.3" id="2C32" page="2048" size="536870912" spare="128" besize="128" planes="2"/>	  
+    </MICRON>
+    <WINBOND>
+       <W25M02GWZEIG-最新 vcc="1.8" id="EFBB21" page="2048" size="268435456" spare="64" besize="128" planes="2"/>
+	   <W25M02GVZEIG-最新 vcc="3.3" id="EFAB21" page="2048" size="268435456" spare="64" besize="128" planes="2"/>
+       <W25N01GW vcc="1.8" id="EFBA21" page="2048" size="134217728" spare="64" besize="128"/>
+       <W25N02KVZEIG-最新 vcc="3.3" id="EFAA22" page="2048" size="268435456" spare="64" besize="128" planes="2"/>
+	   <W25N01KV vcc="3.3" id="EFAA21" page="2048" size="134217728" spare="64" besize="128" planes="2"/>
+	   <W25N04KV vcc="3.3" id="EFAA23" page="2048" size="536870912" spare="128" besize="128" planes="2"/>
+	   <W25N01JW vcc="1.8" id="EFBC21" page="2048" size="134217728" spare="64" besize="128"/>
+	   <W25N04KW vcc="1.8" id="EFBA23" page="2048" size="536870912" spare="128" besize="128" planes="2"/>
+	   <W25N01KV-新版 vcc="3.3" id="EFAE21" page="2048" size="134217728" spare="64" besize="128" planes="2"/>
+   
+    </WINBOND>
+    <Zetta>
+      <ZD35Q1GA  id="BA71" page="2048" size="134217728" spare="64" besize="128"/>
+    </Zetta>
+	<DOSILICON>
+       <DS35M1GA-IB vcc="1.8" id="E521" page="2048" size="134217728" spare="64" besize="128"/>
+	   <DS35M2GA-IB vcc="1.8" id="E571" page="2048" size="268435456" spare="64" besize="128" planes="2"/>
+	   <DS35M2GA-IB-最新 vcc="1.8" id="E571" page="2048" size="268435456" spare="64" besize="128" planes="2"/>
+    </DOSILICON>
+	<FORESEE>
+	  <FS35ND04G-S2Y2 vcc="3.3" id="EC11" page="2048" size="536870912" spare="128" besize="128" planes="2"/>
+	  <FS35ND01G-S1Y2 vcc="3.3" id="EA11" page="2048" size="134217728" spare="64" besize="128" planes="2"/>
+	  <F35SQA001G-WWT vcc="3.3" id="CD71" page="2048" size="134217728" spare="64" besize="128" planes="2"/>
+	  <F35SQA001G-WWR vcc="3.3" id="CD71" page="2048" size="134217728" spare="64" besize="128" planes="2"/>
+	  <F35SQA001G-WAT vcc="3.3" id="CD71" page="2048" size="134217728" spare="64" besize="128" planes="2"/>  
+	</FORESEE>	
+  </SPI_NAND>
+   
+  <SPI_NOR>
+    <ACE>
+      <ACE25C512   id="A13110" page="256" size="65536"/>
+    </ACE> 
+    <ADESTO>
+      <AT25DN256   id="1F4000" page="256" size="32768"/>
+    </ADESTO>
+    <AMIC>
+      <A25L512  id="373010" page="256" size="65536"/> 
+      <A25LQ32A id="374016" page="256" size="4194304"/>
+	  
+    </AMIC>
+    <ATMEL>
+      
+    </ATMEL>
+	<GIGADEVICE>
+	  <GD25LQ20C vcc="1.8" id="C86012" page ="256" size="262144"/>
+	  <GD25LQ064C vcc="1.8" id="C86017" page ="256" size="8388608"/>
+	  <GD25LQ128C vcc="1.8" id="C86018" page ="256" size="16777216"/>
+	  <GD25LQ256C vcc="1.8" id="C86019" page ="256" size="33554432"/>
+	  <GD25B64C id="C84017" page="256" size="8388608"/>
+	  <GD25Q80C id="C84014" page="256" size="1048576"/>
+	  <GD25B64E id="C84017" page="256" size="8388608"/>
+	  <GD25D40 id="C83013" page="256" size="524288"/>
+      <GD25D80 id="C83014" page="256" size="1048576"/>
+      <GD25F40 id="C82013" page="256" size="524288"/>
+      <GD25F80 id="C82014" page="256" size="1048576"/>
+      <GD25Q512 id="C84010" page="256" size="65536"/>
+      <GD25Q10 id="C84011" page="256" size="131072"/>
+      <GD25Q20 id="C84012" page="256" size="262144"/>
+      <GD25Q40 id="C84013" page="256" size="524288"/>
+      <GD25Q80 id="C84014" page="256" size="1048576"/>
+      <GD25Q80B id="C84014" page="256" size="1048576"/>
+      <GD25Q16 id="C84015" page="256" size="2097152"/>
+      <GD25Q16B id="C84015" page="256" size="2097152"/>
+      <GD25Q32 id="C84016" page="256" size="4194304"/>
+      <GD25Q32B id="C84016" page="256" size="4194304"/>
+      <GD25Q64 id="C84017" page="256" size="8388608"/>
+      <GD25Q64B id="C84017" page="256" size="8388608"/>
+	  <GD25B64B id="C84017" page="256" size="8388608"/>
+	  <GD25B128C id="C84018" page="256" size="16777216"/>
+      <GD25Q128B id="C84018" page="256" size="16777216"/>
+      <GD25Q128C id="C84018" page="256" size="16777216"/>
+      <MD25T80 id="C83114" page="256" size="1048576"/>
+      <MD25D20 id="514012" page="256" size="262144"/>
+      <MD25D40 id="514013" page="256" size="524288"/>
+      <MD25D80 id="514014" page="256" size="1048576"/>
+      <MD25D16 id="514015" page="256" size="2097152"/>
+    </GIGADEVICE>
+    <ATO>
+      <ATO25Q32 id="9B3216" page="256" size="4194304"/>
+	  <GT25Q80A id="E04014" page="256" size="1048576"/>
+    </ATO> 
+    <Berg_Micro>
+      <BG25Q40A id="E04013" page="256" size="524288"/>
+    </Berg_Micro>
+    <BOHONG>
+      <BH25Q32  id="684016" page="256" size="4194304"/>
+    </BOHONG>
+    <BoyaMicro>
+      <BY25Q16AL  vcc="1.8" id="E06015" page="256" size="2097152"/>
+    </BoyaMicro>
+    <DOUQI>
+      <DQ25Q64A id="544017" page="256" size="8388608"/>
+    </DOUQI>
+    
+    <EON>
+      <EN25B05   id="1C2010" page="256" size="65536"/>
+	  <EN25QX128A id="1C7118" page="256" size="16777216"/>
+    </EON> 
+    <ESMT>
+      <F25L004A id="8C2013" page="SSTW" size="524288"/>
+      <F25L64QA id="8C4117" page="256" size="8388608"/>
+    </ESMT>
+    <EXCELSEMI>
+      <ES25P10  id="4A2011" page="256" size="131072"/>
+    </EXCELSEMI>
+    <FIDELIX>
+      <FM25Q08A id="F83214" page="256" size="1048576"/>
+	  <FM25Q04A id="A14013" page="256" size="524288"/>
+      <FM25Q32 id="A14016" page="256" size="4194304"/>
+    </FIDELIX>
+    <FM>
+      <FM25F005 id="A13110" page="256" size="65536"/>
+      <PN25F04A id="E04013" page="256" size="524288"/>	  
+    </FM>
+    <FMD>
+      <FT25H02  id="0E4012" page="256" size="262144"/>      
+    </FMD>
+    <GIGADEVICE>
+      <MD25D20   id="514012" page="256" size="262144"/>      
+    </GIGADEVICE>
+    <ICE> 
+    </ICE>
+    <INTEL>
+     <QB25F016S33B id="898911" page="256" size="2097152"/>
+    </INTEL>
+    <ISSI>
+      <IS25LQ025  id="9D4009" page="256" size="32768"/>
+    </ISSI>
+    <KHIC>
+      <KH25L1005 id="C22011" page="256" size="131072"/>
+      <KH25L1005A id="C22011" page="256" size="131072"/>
+      <KH25L2005 id="C22012" page="256" size="262144"/>
+      <KH25L4005 id="C22013" page="256" size="524288"/>
+      <KH25L4005A id="C22013" page="256" size="524288"/>
+      <KH25L512 id="C22010" page="256" size="65536"/>
+      <KH25L512A id="C22010" page="256" size="65536"/>
+      <KH25L8005 id="C22014" page="256" size="1048576"/>
+      <KH25L8036D id="C22615" page="256" size="1048576"/>
+    </KHIC>			
+    <MACRONIX>
+      <MX25UM51245G vcc="1.8" id="C2803A" page="256" size="67108864"/>
+	  <MX25U25645G_1.8V id="C22539" page="256" size="33554432"/>
+	  <MX25L6436F id="C22017" page="256" size="8388608"/>
+	  <MX77L12850F id="C27518" page="256" size="16777216"/>
+    </MACRONIX>
+    <MICRON>
+      <N25Q016     id="20BA15" page="256" size="2097152"/>
+    </MICRON>
+    <NANTRONICS>
+      <N25S10 id="D53011" page="256" size="131072"/> 
+    </NANTRONICS>
+    <PCT>
+      <PCT25VF010A id="BF49"   page="SSTB" size="131072"/> 
+    </PCT> 
+    <PFLASH>
+      <Pm25LD256C id="7F9D2F" page="256" size="32768"/> 
+    </PFLASH>   
+    <PMC> 
+      <PM25LD256_  id="9D2F" page="256" size="32768"/>
+    </PMC>
+	
+	<PUYA>
+      <P25D40H id="856013" page="256" size="524288"/>
+    </PUYA>
+	
+    <SANYO> 
+      <LE25FU106BMA id="621D" page="256" size="131072"/>
+    </SANYO>
+    <SPANSION>
+      <S25FL001D id="010210" page="256" size="131072"/>
+    </SPANSION>  
+    <SST>
+      <SST25LF020A id="BF43"   page="SSTB" size="262144"/>
+      <SST25VF020B id="BF258C" page="SSTW" size="262144"/>
+      <SST26WF040B vcc="1.8" id="BF2654" page="256" size="524288"/> 
+    </SST>
+    <ST>
+      <M45PE05 id="204010" page="256" size="65536" besize="64" adapt="adapSPI45"/>
+    </ST>
+    <WINBOND>
+      <W25Q64JV-xM  id="EF7017" page="256" size="8388608"/>
+      <W25Q64xV     id="EF4017" page="256" size="8388608"/> 
+      <W25Q64FW vcc="1.8" id="EF6017" page="256" size="8388608"/>
+      <W25M512JV    id="EF7119" page="256" size="67108864" dies="2"/>
+	  <W25Q80BW vcc="1.8" id="EF5014" page="256" size="1048576"/>
+	  <W25Q128JV id="EF7018" page="256" size="16777216"/>
+	  <W25Q256FV id="EF4019" page="256" size="33554432"/>
+	  <W25Q256JV id="EF4019" page="256" size="33554432"/>
+	  <W25Q256JV id="EF7019" page="256" size="33554432"/>
+      <W25Q80BW_1.8V id="EF5014" page="256" size="1048576"/>
+  	  <W25M512JV id="EF7119" page="256" size="67108864"/>
+	  <W25R256JV id="EF4019" page="256" size="33554432"/>
+	  <W25P10 id="EF1000" page="256" size="131072"/>
+      <W25P16 id="EF2015" page="256" size="2097152"/>
+      <W25P20 id="EF1100" page="256" size="262144"/>
+      <W25P32 id="EF2016" page="256" size="4194304"/>
+      <W25P40 id="EF1200" page="256" size="524288"/>
+      <W25P64 id="EF2017" page="256" size="8388608"/>
+      <W25P80 id="EF2014" page="256" size="1048576"/>
+      <W25Q10EW_1.8V id="EF6011" page="256" size="131072"/>  
+      <W25Q128BV id="EF4018" page="256" size="16777216"/>
+      <W25Q128FV id="EF4018" page="256" size="16777216"/>
+	  <W25Q128JV id="EF7018" page="256" size="16777216"/>
+	  <W25Q256FV id="EF4019" page="256" size="33554432"/>
+	  <W25Q256JV id="EF4019" page="256" size="33554432"/>
+	  <W25Q256JV id="EF7019" page="256" size="33554432"/>
+      <W25Q128FW_1.8V id="EF6018" page="256" size="16777216"/>
+      <W25Q16 id="EF4015" page="256" size="2097152"/>
+      <W25Q16BV id="EF4015" page="256" size="2097152"/>
+      <W25Q16CL id="EF4015" page="256" size="2097152"/>
+      <W25Q16CV id="EF4015" page="256" size="2097152"/>
+      <W25Q16DV id="EF4015" page="256" size="2097152"/>
+      <W25Q16FW_1.8V id="EF6015" page="256" size="2097152"/>
+      <W25Q16V id="EF4015" page="256" size="2097152"/>
+      <W25Q20CL id="EF4012" page="256" size="262144"/>
+      <W25Q20EW_1.8V id="EF6012" page="256" size="262144"/>
+      <W25Q32 id="EF4016" page="256" size="4194304"/>
+      <W25Q32BV id="EF4016" page="256" size="4194304"/>
+      <W25Q32FV id="EF4016" page="256" size="4194304"/>
+      <W25Q32FW_1.8V id="EF6016" page="256" size="4194304"/>
+      <W25Q32V id="EF4016" page="256" size="4194304"/>
+      <W25Q40BL id="EF4013" page="256" size="524288"/>
+      <W25Q40BV id="EF4013" page="256" size="524288"/>
+      <W25Q40CL id="EF4013" page="256" size="524288"/>
+      <W25Q40EW_1.8V id="EF6013" page="256" size="524288"/>
+      <W25Q64BV id="EF4017" page="256" size="8388608"/>
+      <W25Q64CV id="EF4017" page="256" size="8388608"/>
+      <W25Q64FV id="EF4017" page="256" size="8388608"/>
+	  <W25Q64JV id="EF4017" page="256" size="8388608"/>
+	  <W25Q64JW-IQ_1.8V id="EF6017" page="256" size="8388608"/>
+	  <W25Q64JW-IM_1.8V id="EF8017" page="256" size="8388608"/>
+      <W25Q64FW_1.8V id="EF6017" page="256" size="8388608"/>
+      <W25Q80BL id="EF4014" page="256" size="1048576"/>
+      <W25Q80BV id="EF4014" page="256" size="1048576"/>
+	  <W25Q80BW_1.8V id="EF5014" page="256" size="1048576"/>
+      <W25Q80DV id="EF4014" page="256" size="1048576"/>
+      <W25Q80EW_1.8V id="EF6014" page="256" size="1048576"/>
+      <W25X05 id="EF3010" page="256" size="65536"/>
+      <W25X05CL id="EF3010" page="256" size="65536"/>
+      <W25X10AV id="EF3011" page="256" size="131072"/>
+      <W25X10BL id="EF3011" page="256" size="131072"/>
+      <W25X10BV id="EF3011" page="256" size="131072"/>
+      <W25X10CL id="EF3011" page="256" size="131072"/>
+      <W25X10L id="EF3011" page="256" size="131072"/>
+      <W25X10V id="EF3011" page="256" size="131072"/>
+      <W25X16 id="EF3015" page="256" size="2097152"/>
+      <W25X16AL id="EF3015" page="256" size="2097152"/>
+      <W25X16AV id="EF3015" page="256" size="2097152"/>
+      <W25X16BV id="EF3015" page="256" size="2097152"/>
+      <W25X16V id="EF3015" page="256" size="2097152"/>
+      <W25X20AL id="EF3012" page="256" size="262144"/>
+      <W25X20AV id="EF3012" page="256" size="262144"/>
+      <W25X20BL id="EF3012" page="256" size="262144"/>
+      <W25X20BV id="EF3012" page="256" size="262144"/>
+      <W25X20CL id="EF3012" page="256" size="262144"/>
+      <W25X20L id="EF3012" page="256" size="262144"/>
+      <W25X20V id="EF3012" page="256" size="262144"/>
+      <W25X32 id="EF3016" page="256" size="4194304"/>
+      <W25X32AV id="EF3016" page="256" size="4194304"/>
+      <W25X32BV id="EF3016" page="256" size="4194304"/>
+      <W25X32V id="EF3016" page="256" size="4194304"/>
+      <W25X40AL id="EF3013" page="256" size="524288"/>
+      <W25X40AV id="EF3013" page="256" size="524288"/>
+      <W25X40BL id="EF3013" page="256" size="524288"/>
+      <W25X40BV id="EF3013" page="256" size="524288"/>
+      <W25X40CL id="EF3013" page="256" size="524288"/>
+      <W25X40L id="EF3013" page="256" size="524288"/>
+      <W25X40V id="EF3013" page="256" size="524288"/>
+      <W25X64 id="EF3017" page="256" size="8388608"/>
+      <W25X64BV id="EF3017" page="256" size="8388608"/>
+      <W25X64V id="EF3017" page="256" size="8388608"/>
+      <W25X80AL id="EF3014" page="256" size="1048576"/>
+      <W25X80AV id="EF3014" page="256" size="1048576"/>
+      <W25X80BV id="EF3014" page="256" size="1048576"/>
+      <W25X80L id="EF3014" page="256" size="1048576"/>
+      <W25X80V id="EF3014" page="256" size="1048576"/>
+	  <W25M512JV id="EF7119" page="256" size="67108864"/>
+	  <W25R256JV id="EF4019" page="256" size="33554432"/>
+	  <W25Q128JVSQ id="EF4018" page="256" size="16777216"/>
+	  <W25Q128JVFQ id="EF4018" page="256" size="16777216"/>
+	  <W25Q128JVPQ id="EF4018" page="256" size="16777216"/>
+	  <W25Q128JVEQ id="EF4018" page="256" size="16777216"/>
+	  <W25Q128JVBQ id="EF4018" page="256" size="16777216"/>
+	  <W25Q128JVCQ id="EF4018" page="256" size="16777216"/>
+	  <W25Q128JVSM id="EF7018" page="256" size="16777216"/>
+	  <W25Q128JVFM id="EF7018" page="256" size="16777216"/>
+	  <W25Q128JVPM id="EF7018" page="256" size="16777216"/>
+	  <W25Q128JVEM id="EF7018" page="256" size="16777216"/>
+	  <W25Q128JVBM id="EF7018" page="256" size="16777216"/>
+	  <W25Q128JVCM id="EF7018" page="256" size="16777216"/>
+    </WINBOND>
+    <XMC>
+      <XM25QH32B  id="204016" page="256" size="4194304"/>
+      <XM25QU41B_1.8V id="205013" page="256" size="524288"/>
+	  <XM25QU80B_1.8V id="205014" page="256" size="1048576"/>
+	  <XM25QU16B_1.8V id="205015" page="256" size="2097152"/>
+	  <XM25QU16C_1.8V id="205015" page="256" size="2097152"/>
+	  <XM25LU32C_1.8V id="205016" page="256" size="4194304"/>
+	  <XM25QU32C_1.8V id="205016" page="256" size="4194304"/>
+	  <XM25LU64C_1.8V id="204117" page="256" size="8388608"/>
+	  <XM25RU64C_1.8V id="204117" page="256" size="8388608"/>
+	  <XM25QU64C_1.8V id="204117" page="256" size="8388608"/>	  
+	  <XM25LU128C_1.8V id="204118" page="256" size="16777216"/>
+	  <XM25RU128C_1.8V id="204118" page="256" size="16777216"/>	  
+	  <XM25QU128C_1.8V id="204118" page="256" size="16777216"/>	  
+	  <XM25RU256C_1.8V id="204119" page="256" size="33554432"/>
+	  <XM25QU256C_1.8V id="204119" page="256" size="33554432"/>	  
+	  <XM25RU512C_1.8V id="204120" page="256" size="67108864"/>
+	  <XM25QU512C_1.8V id="204120" page="256" size="67108864"/>
+      <XM25QH10B id="204011" page="256" size="131072"/> 
+	  <XM25QH20B id="204012" page="256" size="262144"/>
+	  <XM25QH40B id="204013" page="256" size="524288"/>
+	  <XM25QH80B id="204014" page="256" size="1048576"/>
+	  <XM25QE16C id="204015" page="256" size="2097152"/>
+	  <XM25QH16C id="204015" page="256" size="2097152"/>
+	  <XM25QE32C id="204016" page="256" size="4194304"/>
+	  <XM25QH32C id="204016" page="256" size="4194304"/>
+	  <XM25RH64C id="204017" page="256" size="8388608"/>
+	  <XM25QH64C id="204017" page="256" size="8388608"/>
+	  <XM25RH128C id="204018" page="256" size="16777216"/>
+	  <XM25QH128C id="204018" page="256" size="16777216"/>
+	  <XM25RH256C id="204019" page="256" size="33554432"/>
+	  <XM25QH256C id="204019" page="256" size="33554432"/>
+	  <XM25RH512C id="204020" page="256" size="67108864"/>
+	  <XM25QH512C id="204020" page="256" size="67108864"/>	  
+	  <XM25QW16C id="204215" page="256" size="2097152"/>
+	  <XM25QW32C id="204216" page="256" size="4194304"/>
+	  <XM25QW64C id="204217" page="256" size="8388608"/>
+	  <XM25QW128C id="204218" page="256" size="16777216"/>
+	  <XM25QW256C id="204219" page="256" size="33554432"/>
+	  <XM25QW512C id="204220" page="256" size="67108864"/>  
+    </XMC>
+    <XTX>
+      <XT25F01B  id="0B4011" page="256" size="131072"/>
+    </XTX>  
+    <Zetta>
+      <ZD25D20    id="BA2012" page="256" size="262144"/>
+    </Zetta>
+    <Zbit>
+      <ZB25D20   id="5E4012" page="256" size="262144"/>
+    </Zbit>
+	<GeneralPlus> 
+	  <GPR25L005E id="C22010" page="256" size="65536"/>
+	  <GPR25L161B id="C22015" page="256" size="262144"/>
+	  <GPR25L020B id="C22012" page="256" size="262144"/>
+	  <GPR25L3203F id="C22016" page="256" size="4194304"/>
+	  <GPR25L3203F id="C22016" page="256" size="4194304" script="GPR25L3203F_OTP.pas"/>
+	</GeneralPlus>
+	<DEUTRON>
+      <AC25LV512 id="9D7B00" page="256" size="65536"/>
+      <AC25LV010 id="9D7C00" page="256" size="131072"/>
+    </DEUTRON>
+	 <XICOR>
+      <X25010 page="4" size="128" spicmd="95"/>
+      <X25043 page="4" size="512" spicmd="95"/>
+      <X25045 page="4" size="512" spicmd="95"/>
+      <X25F008 page="32" size="1024" spicmd="95"/>
+      <X25F016 page="32" size="2048" spicmd="95"/>
+      <X25F032 page="32" size="4096" spicmd="95"/>
+      <X25F064 page="32" size="8192" spicmd="95"/>
+      <X5043 page="16" size="512" spicmd="95"/>
+      <X5045 page="16" size="512" spicmd="95"/>
+    </XICOR>
+	<AKM>
+	    <AK65108 page="32" size="2048" spicmd="95" vcc="3.3"/>
+		<AK6510 page="32" size="4096" spicmd="95" vcc="3.3"/>
+		<AK6512 page="32" size="8192" spicmd="95" vcc="3.3"/>
+		<AK6514 page="64" size="16384" spicmd="95" vcc="3.3"/>
+		<AK6514 page="64" size="32768" spicmd="95" vcc="3.3"/>
+	</AKM>	
+	    <ZEMPRO>
+      <TS25L512A id="372010" page="256" size="65536"/>
+      <TS25L010A id="373011" page="256" size="131072"/>
+      <TS25L020A id="373012" page="256" size="262144"/>
+      <TS25L16AP id="202015" page="256" size="2097152"/>
+      <TS25L16BP id="202015" page="256" size="2097152"/>
+      <TS25L16P id="372015" page="256" size="2097152"/>
+    </ZEMPRO>
+    <EFST>
+      <EM25LV512 id="9D7B00" page="256" size="65536"/>
+      <EM25LV010 id="9D7C00" page="256" size="131072"/>
+      <F25L004A id="8C2013" page="256" size="524288"/>
+      <F25L008A id="8C2014" page="256" size="1048576"/>
+      <F25L016A id="8C2015" page="256" size="2097152"/>
+      <F25L04UA id="8C8C8C" page="256" size="524288"/>
+      <F25L04P id="8C2013" page="256" size="524288"/>
+      <F25S04P id="8C3013" page="256" size="524288"/>
+      <F25L08P id="8C2014" page="256" size="1048576"/>
+      <F25L16P id="8C2015" page="256" size="2097152"/>
+      <F25L32P id="8C2016" page="256" size="4194304"/>
+      <F25L32Q id="8C4016" page="256" size="4194304"/>
+    </EFST>		
+  </SPI_NOR>
+  
+  <SPI_EEPROM>
+    <APLUS>
+      <AF25BC08  page="32" size="1024"/>
+
+    </APLUS>
+    <ATMEL>
+      
+    </ATMEL>
+
+    <GIANTEC>
+      
+    </GIANTEC>
+    <ICMIC>
+      
+    </ICMIC>
+    <INTEGRAL>
+      
+    </INTEGRAL>
+    <ISSI>
+      
+    </ISSI>
+    <MICROCHIP>
+      <_25AA010A page="16" size="128"/>  
+    </MICROCHIP>
+    <RENESAS>
+      
+    </RENESAS>
+    <ROHM>
+      
+    </ROHM>
+    <SAIFUN>
+      
+    </SAIFUN>
+    <SEIKO>
+      
+    </SEIKO>
+    <ST>
+      <M35080-Vx_080D0W page="32" size="1024" vcc="5.0" adapt="adapM35080"/> 
+    </ST>
+    <XICOR>
+      
+    </XICOR>
+	<SAIFUN>
+      <SA25C1024H page="128" size="131072" spicmd="95"/>
+      <SA25C1024L page="128" size="131072" spicmd="95"/>
+      <SA25C512H page="128" size="65536" spicmd="95"/>
+      <SA25C512L page="128" size="65536" spicmd="95"/>
+    </SAIFUN>
+	
+  </SPI_EEPROM> 
+   
+  <SPI_F-RAM>
+    <CYPRESS>
+      <FM25040      size="512"/> 
+      <CY15B128Q    id="7F7F7F7F7F7FC221C8" size="16384"/>
+      <CY15B104QSN  id="0000000006825150"   size="524288"/>
+    </CYPRESS>
+    <FUJISU>                                                    
+      
+    </FUJISU>
+    <LAPIS>  
+      
+    </LAPIS>
+  </SPI_F-RAM>
+  
+  <I2C>
+    <Generic>
+      <_24C00  page="1"   size="16"    addrtype="1"/>
+      <_24C01  page="8"   size="128"   addrtype="1"/>
+      <_24C02  page="8"   size="256"   addrtype="1"/>
+      <_24C04  page="16"  size="512"   addrtype="2"/>
+      <_24C08  page="16"  size="1024"  addrtype="3"/>
+      <_24C16  page="16"  size="2048"  addrtype="4"/>
+      <_24C32  page="32"  size="4096"  addrtype="5"/>
+      <_24C64  page="32"  size="8192"  addrtype="5"/>
+      <_24C128 page="64"  size="16384" addrtype="5"/>
+      <_24C256 page="64"  size="32768" addrtype="5"/>
+      <_24C512 page="128" size="65536" addrtype="5"/>
+      <_24C1024 page="256" size="131072" addrtype="6"/>
+      <_24C2048 page="256" size="262144" addrtype="7"/>
+    </Generic>
+    <ATMEL>
+      <AT24RF08C page="16" size="1024" addrtype="3" adapt="adapI2C"/>
+    </ATMEL>
+    <MICROCHIP>
+      <_24LC515  vcc="5.0" page="64"  size="65536"  addrtype="5" adapt="adapI2C"/>
+    </MICROCHIP>
+    <CHEMTRONICS>
+
+    </CHEMTRONICS>
+    <Philips>
+
+    </Philips> 
+    <ST>
+
+    </ST>
+    <CATALYST_CSI>
+       <CAT24C256 page="64" size="32768" addrtype="5"/>
+    </CATALYST_CSI>	
+	
+  </I2C>
+   
+  <I2C_F-RAM> 
+    <CYPRESS>
+      <FM24C04x vcc="5.0" size="512"  addrtype="2"/>
+    </CYPRESS>
+  </I2C_F-RAM>
+  
+  <I2C_SPD>
+    <ST-ATMEL>
+      <AT34C02 page="16" size="256"  addrtype="1" adapt="adapI2CM34"/>  
+    </ST-ATMEL>
+  </I2C_SPD>
+  
+  <Microwire>
+    <Generic>
+      <_93C86_8bits   vcc="5.0" size="2048" addrbitlen="11" adapt="adap93C"/>
+      <_93C86_16bits  vcc="5.0" size="2048" addrbitlen="10" adapt="adap93C"/>
+      <_93C76_8bits   vcc="5.0" size="1024" addrbitlen="11" adapt="adap93C"/>
+      <_93C76_16bits  vcc="5.0" size="1024" addrbitlen="10" adapt="adap93C"/>
+      <_93C66_8bits   vcc="5.0" size="512"  addrbitlen="9"  adapt="adap93C"/>
+      <_93C66_16bits  vcc="5.0" size="512"  addrbitlen="8"  adapt="adap93C"/>
+      <_93C57_8bits   vcc="5.0" size="256"  addrbitlen="8"  adapt="adap93C"/>
+      <_93C57_16bits  vcc="5.0" size="256"  addrbitlen="7"  adapt="adap93C"/>
+      <_93C56_8bits   vcc="5.0" size="256"  addrbitlen="9"  adapt="adap93C"/>
+      <_93C56_16bits  vcc="5.0" size="256"  addrbitlen="8"  adapt="adap93C"/>
+      <_93C46_8bits   vcc="5.0" size="128"  addrbitlen="7"  adapt="adap93C"/>
+      <_93C46_16bits  vcc="5.0" size="128"  addrbitlen="6"  adapt="adap93C"/>
+    </Generic>
+    <CYPRESS>
+      <CY93C01_8bits  size="128"  addrbitlen="7"  adapt="adap93C"/>
+      <CY93C01_16bits size="128"  addrbitlen="6"  adapt="adap93C"/>
+    </CYPRESS>
+    <ST_93Sx6>
+      <M93S66_16bits  size="512" addrbitlen="8" adapt="adap93S"/>
+      <M93C86 size="2048" addrbitlen="10"/>
+      <M93C76 size="1024" addrbitlen="10"/>
+      <M93C66 size="512" addrbitlen="8"/>
+      <M93C56 size="256" addrbitlen="8"/>
+      <M93C46 size="128" addrbitlen="6"/>
+      <M93C06 size="16" addrbitlen="6"/>	  
+    </ST_93Sx6>
+    <DIV_59x>
+      <MSM16911_8bits  vcc="5.0" size="128" addrbitlen="7" adapt="adap59C"/>
+      <MSM16911_16bits vcc="5.0" size="128" addrbitlen="6" adapt="adap59C"/>
+    </DIV_59x>
+  </Microwire>
+  
+  <AVR>
+    <ATtiny>
+      <ATtiny1634 id="1E9412" page="16" size="16384"  pageep="4" sizeep="256"/>
+    </ATtiny>
+    <ATmega>
+      <ATmega2561 id="1E9802" page="128" size="262144" pageep="8" sizeep="4096"/> 
+    </ATmega>
+    <specific>
+      <ATmega2564RFR2 id="1EA803" page="128" size="262144" pageep="8" sizeep="8192"/>
+    </specific>
+  </AVR>
+  <MCU>
+    <Samsung_Zilog>
+      <S3F8S24    size="4096"  page="256" VPP="11V"    mcutype="S3F"/>
+      <S3F8S28    size="8192"  page="256" VPP="11V"    mcutype="S3F"/>
+      <S3F8S35    size="16384" page="256" VPP="5.0V"   mcutype="S3F"/>
+      <S3F8S39    size="32768" page="256" VPP="5.0V"   mcutype="S3F"/>
+      <S3F9454B   size="4096"  page="256" VPP="12.5V"  mcutype="S3F"/>
+      <S3F94C4    size="4096"  page="256" VPP="11V"    mcutype="S3F"/>
+      <S3F94C8    size="8192"  page="256" VPP="11V"    mcutype="S3F"/>
+    </Samsung_Zilog>
+  </MCU>
+</chiplist>

@@ -13,6 +13,15 @@ amidewin : lets you read/write DMI/SMBIOS
 
 DMIEDIT : with a proper gui, lets you read/write dmi/smbios
 
+ReBarDxe.ffs : lets you inject rebar into UEFI. Must have secure boot OFF.
+
+ReBarState.exe : lets you change the rebar value. recommended is 2^32 for max vram usage.
+
+CheckSum.exe : lets you checksum. needs java runtime.
+
+NeoProgrammer : The best tool for CH341A.
+
+
 FPTW64: Flash image tool, only 64bit. you can use this to dump and/or flash modded/stock bios on your motherboard.
 
 AMIBCP : basically lets you turn on/off hidden settings on your bios. also makes them visible if youd like to.
