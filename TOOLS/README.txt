@@ -50,4 +50,4 @@ I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSION
 
 27.03.2026 13.30 GMT+3 : fixed afuwingui after seeing that it doesnt work at all.
 11.04.2026 15.41 GMT+3 : added uefitool (non ne) and updated readme. added uefiextractNE.
-
+11.04.2026 19.51 GMT+3 : added "ReBarDxe" and NVME .ffs driver. inject via uefitool (not NE)
