@@ -19,7 +19,11 @@ AMIBCP : basically lets you turn on/off hidden settings on your bios. also makes
 
 MMTool : useful for injecting microcodes, extracting microcodes, injecting .ffs drivers.
 
-UEFITool_NE : Lets you edit every part of the BIOS. It's probably one of the best tools for modding.
+UEFITool_NE : Lets you read every part of the BIOS. It's probably one of the best tools for modding.
+
+UEFITool : Lets you edit and inject drivers into the BIOS.
+
+UEFIExtract NE : it lets you unpack a firmware file into a folder so you can view and analyze its internal structure, including volumes, files, and sections. MUST BE USED FROM CMD.
 
 IFR Extractor : parses BIOS setup to show hidden menus
 
@@ -43,3 +47,7 @@ I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSION
 I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSIONS
 I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSIONS
 I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSIONS
+
+27.03.2026 13.30 GMT+3 : fixed afuwingui after seeing that it doesnt work at all.
+11.04.2026 15.41 GMT+3 : added uefitool (non ne) and updated readme. added uefiextractNE.
+
