@@ -1,0 +1,6 @@
+*linguist-vendored
+*.bat linguist-vendored=false
+*.bat linguist-language=Batch
+*.cmd linguist-vendored=false
+*.cmd linguist-language=Batch
+README.md linguist-documentation
