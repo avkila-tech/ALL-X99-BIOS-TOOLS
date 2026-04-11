@@ -1,6 +1,13 @@
-*linguist-vendored
+# Hide everything by default from the language bar
+* linguist-vendored
+* linguist-detectable=false
+# Specifically allow and force Batch detection
 *.bat linguist-vendored=false
+*.bat linguist-detectable=true
 *.bat linguist-language=Batch
 *.cmd linguist-vendored=false
+*.cmd linguist-detectable=true
 *.cmd linguist-language=Batch
-README.md linguist-documentation
+# Force hide XML and other data files
+*.xml linguist-vendored=true
+*.xml linguist-detectable=false
