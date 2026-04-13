@@ -1,62 +1,57 @@
-provided by avkila on discord
-@avkilasmodding on instagram
-can contact me from miyconst discord server
+X99 BIOS Modding Toolkit
 
-explaination of all progams
+Maintained by avkila * Discord: avkila
+Instagram: @avkilasmodding
+Community: Find me on the Miyconst Discord server.
 
-S3TurboTool : Turbo unlocking tool for X99 motherboards. Can create custom .FFS drivers for your needs. This is more of an advanced type of turbo unlocking.
-Gives you more control over the Turbo Unlock. Lets you do FIVR bug (not recommended)
+🛠️ Core Modification Tools
+S3TurboTool: An advanced Turbo Boost unlocking utility for X99 motherboards. Allows for the creation of custom .ffs drivers and provides granular control over the FIVR bug (use with caution).
 
-lzma.exe : lets you decompress/compress lzma data on ami bioses. useful. use it from cmd
+Ultimate Patcher Tool: An all-in-one automated modding solution for X99 BIOS. Capable of unlocking overclocking, memory timings, Turbo Unlock, ReBar injection, and logo customization. [Status: Untested]
 
-amidewin : lets you read/write DMI/SMBIOS
+AMIBCP: Powerful utility for modifying BIOS menu visibility. Use this to toggle hidden settings and expose advanced menus to the end-user.
 
-DMIEDIT : with a proper gui, lets you read/write dmi/smbios
+MMTool: The standard for managing BIOS modules. Essential for injecting or extracting microcodes and .ffs drivers.
 
-ReBarDxe.ffs : lets you inject rebar into UEFI. Must have secure boot OFF.
+AMIChangeLogo: Specialized tool for backing up or replacing the OEM boot splash screen (Motherboard/BIOS logo).
 
-ReBarState.exe : lets you change the rebar value. recommended is 2^32 for max vram usage.
+🔍 Analysis & Extraction
+UEFITool / UEFITool_NE: The industry standard for BIOS analysis. The NE (New Engine) version is best for visualization and structure analysis, while the standard version is required for actual image editing and driver injection.
 
-CheckSum.exe : lets you checksum. needs java runtime.
+UEFIExtract NE: A command-line utility used to unpack firmware files into a searchable directory structure for deep analysis of volumes and sections.
 
-NeoProgrammer : The best tool for CH341A.
+IFR Extractor: Parses the BIOS Setup module to generate a readable text map of all hidden and visible configuration menus.
 
+lzma.exe: Command-line utility for decompressing and compressing LZMA data blocks within AMI BIOS images.
 
-FPTW64: Flash image tool, only 64bit. you can use this to dump and/or flash modded/stock bios on your motherboard.
+💾 Flashing & DMI Management
+FPTW64 (Intel Flash Programming Tool): A 64-bit utility for dumping and flashing the BIOS region or full SPI image.
 
-AMIBCP : basically lets you turn on/off hidden settings on your bios. also makes them visible if youd like to.
+Note: Requires "BIOS Lock" to be disabled via AMIBCP or Grub shell.
 
-MMTool : useful for injecting microcodes, extracting microcodes, injecting .ffs drivers.
+AFUWINGUIx64: A GUI-based alternative to FPT for flashing AMI BIOS. Shares the same "BIOS Lock" requirements as FPT.
 
-UEFITool_NE : Lets you read every part of the BIOS. It's probably one of the best tools for modding.
+NeoProgrammer: The preferred software for use with CH341A hardware programmers. Highly recommended for recovering from bricks or flashing boards with locked descriptors.
 
-UEFITool : Lets you edit and inject drivers into the BIOS.
+AMIDEWIN / DMIEDIT: Tools for reading and writing DMI/SMBIOS data (Serial Numbers, UUIDs, Asset Tags). DMIEDIT provides a user-friendly GUI.
 
-UEFIExtract NE : it lets you unpack a firmware file into a folder so you can view and analyze its internal structure, including volumes, files, and sections. MUST BE USED FROM CMD.
+🚀 Performance & Feature Drivers
+ReBarDxe.ffs: EFI driver for Resizable BAR support. Requires Secure Boot to be OFF.
 
-IFR Extractor : parses BIOS setup to show hidden menus
+ReBarState.exe: CLI tool to configure the ReBar size. A value of 2^32 is recommended for maximum VRAM utilization.
 
-AMIChangeLogo : Lets you backup and change the boot logo. Not Windows logo, the motherboard logo.
+NVME.ffs: Driver for adding NVMe boot support to older UEFI motherboards that lack native M.2 boot capabilities.
 
-AFUWINGUIx64 : Basically FPTW but with more support for motherboards. Must disable BIOS Lock on your motherboard or else you will fail to 
-read/write any BIOS! This is the same in FPTW. If your BIOS Lock is turned on, you can not read/write BIOS. You'll need CH341A to mod.
+XTUSetup (v6.4.2.40): A specific Intel XTU version compatible with Chinese X99 boards. Allows for overclocking provided the BIOS has been prepped (e.g., via AMIBCP).
 
-ultimate patcher tool : easy to use modding tool for x99 bioses. can unlock overclocking, memory timings, turbo unlock, inject rebar, change logo etc. UNTESTED
+ME System Tools v9.1 R7: Tools for modifying the Intel Management Engine. Useful for fixing BCLK at exactly 100MHz (disabling Spread Spectrum).
+Supported Chipsets: Q87, H87, Z87. (Genuine X99/C612 requires a different ME version).
 
-XTUSetup : XTU 6.4.2.40 for Chinese X99 motherboards. Works. Does not care about chipset as long as your motherboard supports overclocking.
-Most common fix for locked boards is unlocking it from AMIBCP5.exe however this is not guaranteed. However over the time i did this unlock on various motherboards
-it worked fine on %70 of them. Again, this is not a confirmed fix. If your BIOS misses the actual stuff that needs to overclock it might lead to a brick.
+⚠️ Disclaimer
+USE AT YOUR OWN RISK.
+I am not responsible for any damages including, but not limited to: bricked motherboards, fried VRMs, hardware failure, or data loss. BIOS modding carries inherent risks of permanent hardware damage. Always have a CH341A programmer and a backup of your original BIOS before proceeding.
 
-ME System Tools v9.1 R7 : Lets you modify the Intel ME which is normally killed in Chinese X99 motherboards.
-With this tool, you can adjust the BCLK to be fixed at 100 mhz flat instead of downspreading to 99.78
-(SUPPORTS Q87, H87, Z87. NEED ANOTHER VERSION FOR GENUINE X99/C612 CHIPSET. LAPTOP CHIPSETS UNKNOWN.)
-YOU CAN ALSO DO ABOVE 100MHZ BCLK WITH THIS, BUT IT IS UNTESTED.
-
-I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSIONS
-I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSIONS
-I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSIONS
-I AM NOT RESPONSIBLE FOR ANY DAMAGES, BROKEN MOTHERBOARDS, FRIED VRMS, EXPLOSIONS
-
-27.03.2026 13.30 GMT+3 : fixed afuwingui after seeing that it doesnt work at all.
-11.04.2026 15.41 GMT+3 : added uefitool (non ne) and updated readme. added uefiextractNE.
-11.04.2026 19.51 GMT+3 : added "ReBarDxe" and NVME .ffs driver. inject via uefitool (not NE)
+🕒 Changelog
+11.04.2026: Added ReBarDxe and NVME .ffs drivers. Included injection instructions for UEFITool.
+11.04.2026: Added UEFITool (Standard) and UEFIExtractNE; updated documentation.
+27.03.2026: Patched AFUWINGUI to resolve execution errors.
