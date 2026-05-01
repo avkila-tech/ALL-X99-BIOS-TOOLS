@@ -1,0 +1,27 @@
+
+-------------------------------------------------------
+ Flash Image Tool  -  5/1/2026  -  11:16:45 
+-------------------------------------------------------
+
+
+Command line: ""
+Environment variables:
+	$CurWorkDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\TOOLS\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$WorkingDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\TOOLS\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$SourceDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\TOOLS\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32"
+	$DestDir 	= "C:\Users\Administrator\Desktop\ALL BIOS MODDING TOOLS FOR X99\TOOLS\Intel ME System Tools v9.1 r7\Flash Image Tool\WIN32\Build"
+	$UserVar1 	= ".\"
+	$UserVar2 	= ".\"
+	$UserVar3 	= ".\"
+
+Using vsccommn.bin with timestamp 17:22:47 08/18/2014 GMT.
+Loading ICC Settings from XML
+Initializing Profile "WiMax" from "Standard"
+Initializing Profile "3G" from "Standard"
+Initializing Profile "Overclocking" from "Standard"
+Initializing Profile "UserProfile" from "Standard"
+Loaded default configuration.
+USER ACTION: Changing Sku Type.
+Program terminated.
+-------------------
+
