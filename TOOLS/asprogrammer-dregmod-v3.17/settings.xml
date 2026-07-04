@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <locale lang="en"/>
+  <options hw="ch347" sendab="0" skipff="1" verify="0" mw_speed="32Khz" spi_speed="187_5Khz" arduino_comport="" ch347_spi_speed="60Mhz" arduino_baudrate="1000000"/>
+</settings>
