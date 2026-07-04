@@ -73,7 +73,8 @@
 ---
 
 **Note:** In 4th of July 2026 "Wapomi.Virus.FileInfector" has been found in the repo files. Even though Wapomi is a malware from 2000's and is completely harmless in 2026 (unless you are running windows xp 32bit like a chad) it is still better for me to add a small note about it. The repo is completely cleaned out. If you happened to use a fork of it, or happened to use one of my old commits please do not run anything and uninstall the folder. If you have ran it, your data is completely safe however you will get annoying "unsupported 16 bit application" error in temp files.
-![Malwarebytes Results](./malwarebytes.png)
+
+![Malwarebytes Results](./image_acadec.png)
 
 
 
