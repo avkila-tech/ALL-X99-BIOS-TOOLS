@@ -35,7 +35,7 @@
 * **FPTW64 (Intel Flash Programming Tool):** A 64-bit utility for dumping and flashing the BIOS region or full SPI image.
   > ⚠️ **Note:** Requires "BIOS Lock" to be disabled via AMIBCP or Grub shell. Please make sure R/W permissions also exist within the BIOS. If they are not granted you will need to use CH341A.
 * **AFUWINGUIx64:** A GUI-based alternative to FPT for flashing AMI BIOS. Shares the same "BIOS Lock" requirements as FPT.
-* **NeoProgrammer:** The preferred software for use with CH341A hardware programmers. Highly recommended for recovering from bricks or flashing boards with locked descriptors.
+* **AsProgrammer:** The preferred software for use with CH341A hardware programmers. Highly recommended for recovering from bricks or flashing boards with locked descriptors.
 * **AMIDEWIN / DMIEDIT:** Tools for reading and writing DMI/SMBIOS data (Serial Numbers, UUIDs, Asset Tags). DMIEDIT provides a user-friendly GUI.
 
 ---
@@ -69,6 +69,7 @@
 * **23.06.2026:** Removed checksum.exe. Added a new software, hasher. You can just drag and drop your files in there to check MD5 and SHA256. Written in Python.
 * **04.07.2026:** I have added some badges so its easier to navigate through the readme file. No tool update or anything new. I won't be adding this to the releases.
 * **04.07.2026:** Emergency cleanup is done. None of the files pose a threat in any AV. Please do NOT use the old commits. Wapomi is completely harmless in 2026 but its still a malware. 
+* **09.07.2026:** Enjoyed my birthday event. I just noticed I forgot to rename "neoprogrammer" to "asprogrammer" in readme.md file. Fixed. Files are still safe to use.
 
 ---
 
